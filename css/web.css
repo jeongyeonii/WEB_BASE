@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul,dl,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/*요소검사 레이아웃 확인용*/
+.red{background-color: red;}
+.black{background-color: black;}
+.yellow{background-color: yellow;} 
+
+/* A,B형 */
+/* .container{width: 1200px; margin: 0 auto;} */
+
+/* C형 */
+.container{width: 1000px;}
+.w200{width: 200px;}
+.w800 {width: 800px;}
+
+/* common */
+.rel{position: relative;}
+.abs{position: absolute;}
+.d-flex{display: flex;}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+.align-items-start{align-items: start;}

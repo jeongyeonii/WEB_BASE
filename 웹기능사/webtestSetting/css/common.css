@@ -1,0 +1,26 @@
+.container{max-width: 1280px}
+.m-auto{margin: 0 auto;}
+
+.position-absolute{position: absolute;}
+.position-relative{position: relative;}
+.position-fixed{position: fixed;}
+
+.d-flex{display: flex;}
+.d-block{display: block;}
+.d-none{display: none;}
+.d-inline-block{display: inline-block;}
+
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+.align-items-start{align-items: flex-start;}
+.align-items-end{align-items: flex-end;}
+.align-items-stretch{align-items: stretch;}
+
+.text-center{text-align: center;}
+.text-start{text-align: left;}
+.text-end{text-align: right;}
+
+.w-auto{width: auto;}
+.w-100{width: 100%;}
+
+.border{border: 1px solid #ccc;}

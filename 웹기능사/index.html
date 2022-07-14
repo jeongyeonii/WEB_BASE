@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 기능사 하드코딩</title>
+    <link rel="stylesheet" href="css/web.css">
+    <!-- 제이쿼리 -->
+    <script src="stylesheet"></script>
+</head>
+<body>
+    <!-- A,B형 .container>header#hd+#silder+#tabs+footer#ft
+    C형 .container.m-0.d-flex>header#hd.w120+.contentBox>#silder+#tabs+footer#ft -->
+    <!-- A,B형 .container>header#hd.h100.rel.d-flex.justify-content-between+#silder.h300+#tabs.h200.d-flex+footer#ft.h100.d-flex
+    C형.container.m-0.d-flex.align-items-start>header#hd.w200.d-flex.justify-content-between+.contenttBox.w800>#slider.h300+#tabs.h200.d-flex+foother#ft.h100.d-flex -->
+    <div class="container d-flex">
+        <header id="hd" class="w200">
+            <h1><a href="">로고</a></h1>
+            <ul id="gnb">
+                <li>
+                    <a href="#">대메뉴</a>
+                    <ul class="d2">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">대메뉴</a>
+                    <ul class="d2">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">대메뉴</a>
+                    <ul class="d2">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">대메뉴</a>
+                    <ul class="d2">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <div class="contentBox w800 ">
+            <div id="slider" class="h300"></div>
+            <div id="tabs" class="h200 d-flex red"></div>
+            <footer id="ft" class="h100 d-flex justify-content-between black"></footer>
+        </div>
+    </div>
+</body>
+</html>

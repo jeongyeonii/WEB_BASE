@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none; color: #333;}
+a:hover{color: #0066ad;}
+ul,dl,li{list-style: none;}
+/* common */
+.d-flex{display: none;}
+.justify{justify-content: space-between;}
+.align{align-items: center;}
+.rel{position: relative;}
+.abs{position: absolute;}
+
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+.w1200{width: 1200px;}
+.ofh{overflow: hidden;}
+/* style */
+#hd{}
+#hd .container{}
+#hd .container h1{}
+#gnb{}
+#gnb > li{}
+#gnb > li
